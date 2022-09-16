@@ -1,0 +1,35 @@
+h1
+ {
+    font-size: large;
+    display: grid;
+    justify-content: center;
+    color:aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: large;
+    justify-content: center;
+    display: grid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+h1:hover {
+    color:bisque;
+    background-color: blueviolet;
+}
+
+h2:hover {
+    color:blue;
+    background-color: aqua;
+}
+section {
+    display: grid; 
+    width: 100vw;
+}
+div {
+    width: 50vw; 
+    margin: 0 auto;
+    background-color: pink; 
+}
